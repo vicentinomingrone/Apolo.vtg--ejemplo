@@ -1,0 +1,34 @@
+body{
+    background-image: url(../imagenes/Logos/fondo\ pagina\ web\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.container-fuild {
+        padding: 5%;
+        margin: 0 5%;
+
+    .text-center2{
+            color: map-get($colores, secundario);
+        }
+        
+    .card {
+        background-color: map-get($colores, diez);
+        border-radius: 12px;
+        padding: 4%;
+        margin-top: 5%;
+    }
+
+    .card2 {
+        background-color: map-get($colores, once);
+        border-radius: 12px;
+        padding: 4%;
+        margin-top: 5%;
+    }
+
+    .card-body {
+        color: map-get($colores, secundario);
+    }
+
+}
