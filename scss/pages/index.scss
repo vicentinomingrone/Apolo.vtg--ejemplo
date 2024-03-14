@@ -11,22 +11,19 @@ body{
 
     .text-center2{
             color: map-get($colores, secundario);
-        }
-        
+        }       
     .card {
         background-color: map-get($colores, diez);
         border-radius: 12px;
         padding: 4%;
         margin-top: 5%;
     }
-
     .card2 {
         background-color: map-get($colores, once);
         border-radius: 12px;
         padding: 4%;
         margin-top: 5%;
     }
-
     .card-body {
         color: map-get($colores, secundario);
     }

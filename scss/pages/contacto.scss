@@ -6,8 +6,6 @@
     background-color:  map-get($colores, sexto);
     margin: 50px 50px;
     padding: 20px;
-
-
 .form {
     min-width: 400px;
     flex: 1;
@@ -20,7 +18,6 @@
         resize: none;
     }
 }
-
 .form__input {
     width: 100%;
     padding: 7px;
@@ -35,7 +32,6 @@
     outline: none;
     border-bottom: 3px solid  map-get($colores, octavo);
 }
-
 .form-img {
     flex: 1;
     display: flex;
@@ -53,7 +49,6 @@
         margin: auto;
     } 
 }
-
 .img-container{
         margin: auto;
     div{
@@ -63,7 +58,6 @@
         padding: 40px;
     }
 }
-
 .form input[type="submit"] {
     background-color:  map-get($colores, septimo);
     border-bottom: none;

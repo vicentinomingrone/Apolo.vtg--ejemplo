@@ -2,33 +2,27 @@ header{
     .nav__responsive-ul {
         display: none;
     }
-    
     .nav {
         background-color: map-get($colores, primario);
         display: flex;
         justify-content: center;
         align-items: center;
-
         li{
             display: inline-block;
             padding: 12px;
             color: map-get($colores, cuarto);
-        }
-        
+        } 
         a {
             color: map-get($colores, secundario);
             text-decoration: none;
         }
     }
-
     .nav:hover > a {
         color: map-get($colores, terceario);
     }
-    
     .title {
         color: map-get($colores, secundario);
     }
-
     .text-center{
         color: map-get($colores, secundario);
     }
@@ -69,32 +63,27 @@ header{
         .nav__responsive-li a{
             color: white;
             text-decoration: none;
-        }
-        
+        }  
         .nav__responsive-button-container {
             width: 90%;
             font-size: 15px;
             background-color: gray;
             margin-top: -70px;
         }
-    
         .nav__responsive-button-container2 {
             width: 92%;
             font-size: 15px;
             background-color: gray;
             margin-top: -70px;
         }
-        
         .nav__responsive-button{
             padding: 10px 10px;
             text-align: right;
             width: 100%;
         }
-    
         .nav__responsive-ul:hover > .nav__li-container{
             top:-27px;
         }
-    
         .container-img{
             width: 95%;
             grid-template-columns: repeat(2, 1fr);
