@@ -1,5 +1,5 @@
 body{
-    background-image: url(../imagenes/Logos/fondo\ pagina\ web\ .jpg);
+    background-color: map-get($colores, cuarto);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
