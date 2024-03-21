@@ -1,18 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
-body {
-  background-color: darkblue;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  overflow-x: hidden;
-}
-
 .container-fuild {
   padding: 5%;
   margin: 0 5%;
 }
 .container-fuild .text-center2 {
   color: #fff;
+}
+.container-fuild .text-center3 {
+  color: #000;
 }
 .container-fuild .card {
   background-color: 222;
@@ -28,6 +23,14 @@ body {
 }
 .container-fuild .card-body {
   color: #fff;
+}
+
+body {
+  background-image: url(../imagenes/loguitos/Fondodelapaginaweb.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 * {

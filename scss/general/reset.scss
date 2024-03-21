@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+body{
+    background-image: url(../imagenes/loguitos/Fondodelapaginaweb.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    overflow-x: hidden;
+}
 *{
     box-sizing: border-box;
     margin: 0;
